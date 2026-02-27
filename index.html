@@ -13,11 +13,16 @@
     <input id="inputBox" type="text" placeholder="Say something..." />
 
     <button onclick="sendMessage()">Send</button>
-
+<div style="margin-top:10px;">
+  <button onclick="startListening()">🎙 Talk</button>
+  <button onclick="stopListening()">⏹ Stop</button>
+  <span id="status" style="margin-left:10px;"></span>
+</div>
     <div id="responseBox"></div>
   </div>
 
   <script src="app.js"></script>
 
 </body>
+
 </html>
